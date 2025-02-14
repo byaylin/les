@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Loony Exterior Solutions">
+    <link rel="stylesheet" href="styles.css">
+    <title>Contact Us - Loony Exterior Solutions</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="serviceAreas.html">Service Areas</a></li>
+                <li><a href="contactUs.html">Contact Us</a></li>
+            </ul>
+        </nav>
+        <h1>Contact Us</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>Get in Touch</h2>
+            <p>Have questions? Need a quote? Fill out the form below, and we’ll get back to you as soon as possible.</p>
+
+            <form action="submit-form.php" method="POST">
+                <fieldset>
+                    <legend>Contact Information</legend>
+
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone" placeholder="Your Phone Number" required>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Message Details</legend>
+
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" name="subject" placeholder="Subject" required>
+
+                    <label for="message">Your Message</label>
+                    <textarea id="message" name="message" placeholder="Write your message here..." required></textarea>
+                </fieldset>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+
+        <section>
+            <h2>Our Contact Information</h2>
+            <p><strong>Email:</strong> <a href="mailto:loonyexteriorsolutions@gmail.com">loonyexteriorsolutions@gmail.com</a></p>
+            <p><strong>Phone:</strong> <a href="tel:+5035443481">(503) 544-3481</a></p>
+            <p><strong>Business Hours:</strong> Monday - Friday, 9 AM - 6 PM</p>
+        </section>
+        <!--
+        <section>
+            <h2>Find Us on the Map</h2>
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8354345093717!2d144.96305791531677!3d-37.816279779751554!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0x5045675218ce740!2sMelbourne%20VIC!5e0!3m2!1sen!2sau!4v1600000000000!5m2!1sen!2sau" 
+                width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy">
+            </iframe>
+        </section>
+    </main>
+        -->
+
+    <footer>
+        <p>&copy; 2025 Loony Exterior Solutions. All Rights Reserved.</p>
+        <script src="scripts.js"></script>
+    </footer>
+</body>
+</html>
